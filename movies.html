@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+  Name: Divendar Murtadak
+  URL: http://omega.uta.edu/~dum4166/movies.html
+-->
+<html lang="en">
+<head>
+<title>TMDB Movie Database</title>
+
+<meta charset="utf-8" />
+<script type="text/javascript" src="movies.js"></script>
+</head>
+<h1>TMDB Movie Database</h1>
+<body onload="initialize();">
+	<form>
+		<label>Movie title: <input type="text" id="form-input" /></label> <input
+			type="button" onclick="sendRequest();" value="Display Info" />
+	</form>
+	<div id="body"></div>
+
+	<div id="output" style="float: left"></div>
+	<div id="detailInfo" style="float: right"></div>
+
+</body>
+</html>
